@@ -1,0 +1,27 @@
+.ball{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: hsl(322, 81%, 43%);
+    border: 2px solid hsl(322, 78%, 23%) ;
+    animation-name: bounce;
+    animation-duration: 900ms;
+    margin: 30px auto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transition-timing-function: ease-in;
+}
+.photo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+@keyframes bounce {
+   
+    0%{
+        transform: translateY(600px) rotateZ(360deg);
+        /* transition-duration: 100ms; */
+        
+
+    }
+}
